@@ -1,0 +1,44 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 12, 2019, 2:27:04 PM
+    Author     : Lakith
+*/
+
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+/****** Style Star Rating Widget *****/
+
+.rating , .rating-colored { 
+margin-left: -15px;
+position: absolute;
+border: none;
+float: left;
+
+}
+.rating-colored > label:before { 
+  color: #FFD700;
+  font-size: 1.25em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+.rating > label:before { 
+  color: #ddd;
+  font-size: 1.25em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+.rateing-des{
+    margin-top: 50px;
+    display: block;
+    text-transform: uppercase;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #e9363a;
+    text-decoration: none;
+}

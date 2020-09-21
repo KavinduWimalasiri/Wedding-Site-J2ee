@@ -1,0 +1,103 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 31, 2018, 12:00:27 AM
+    Author     : Lakith
+*/
+.wrapper{
+    margin-top: 20px;
+    margin-left:50px;
+    margin-right:auto;
+    height:auto; 
+    width:auto;
+    padding: 10px;
+}
+
+.details-wrapper{
+    position: absolute;
+    top:110px;
+    left: 880px;
+    width: 400px;
+    height: 430px;
+    padding: 50px 10px 10px 50px;
+    border: 1px solid rgba(242, 242, 242, .5);
+    box-shadow: 0 0 2px rgba(0,0,0,0.1);
+}
+
+#order-btn input[type=submit]{
+    
+    background  : none;
+    border: none;
+    margin-right: 225px;
+    font: 20px Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    border-style: solid;
+    border-width: 1.15px;
+    border-radius: 5px;
+    padding: 2px 10px 2px 10px;
+    color: #e9363a;
+    width: 300px;
+    height: 30px;
+    border-color: #e9363a;
+    color: #fff;
+    background-color: #e9363a;
+    text-decoration: none;
+}
+
+#order-btn input[type=submit]:hover{
+border-color: #fd464b;
+color: #fff;
+background-color: #fd464b;
+text-decoration: none;
+}
+
+#order-btn a{
+    background  : none;
+    border: none;
+    display : block;
+    margin-right: 225px;
+    margin-top: 20px;
+    font: 20px Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    border-style: solid;
+    border-width: 1.15px;
+    border-radius: 5px;
+    padding: 2px 2px 0px 2px;
+    color: #e9363a;
+    width: 300px;
+    height: 25px;
+    border-color: #e9363a;
+    color: #fff;
+    background-color: #e9363a;
+    text-decoration: none;
+}
+
+#order-btn a :hover {
+    border-color: #fd464b;
+    color: #fff;
+    background-color: #fd464b;
+    text-decoration: underline;
+}
+
+#order-btn{
+   position: absolute;
+   top: 350px;
+}
+
+#description-wrapper a{
+    font: 30px Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color : #000;
+}
+
+#description-wrapper p{
+    margin-top: 50px;
+    font: 15px Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color : #000;
+}

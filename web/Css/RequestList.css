@@ -1,0 +1,89 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 26, 2018, 2:54:38 PM
+    Author     : Lakith
+*/
+#wrapper{
+position: absolute;
+left: 350px;
+margin-top: 10px;
+margin-left:auto;
+margin-right:auto;
+height:auto; 
+width:auto;
+padding: 10px;
+}
+#inner {
+
+margin-top: 10px;
+width: 550px;
+height: 140px;
+border: 1px solid rgba(242, 242, 242, .5);
+box-shadow: 0 0 2px rgba(0,0,0,0.1);
+}
+.gig-image-wrapper {
+margin: 5px 5px 5px 5px;
+}
+.request-details {
+position: absolute;
+left: 270px;
+width: 250px;
+margin-top: -130px;
+}
+li {
+list-style-type: none;
+}
+.request-details a {
+text-transform: uppercase;
+padding-top: 5px;
+padding-bottom: 5px;
+color: #e9363a;
+text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+.btn-wrapper {
+position: absolute;
+left: 270px;
+width: auto;
+margin-top: -35px;
+}
+.btn{
+margin-left: 5px;
+margin-right: 40px;
+background: #fff;
+font: 12px Arial, Helvetica, sans-serif;
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+border-style: solid;
+border-width: 1.15px;
+border-radius: 5px;
+padding: 2px 10px 2px 10px;
+}
+#btn-accept{
+border-color: #04d913;
+color: #04d913;
+}
+#btn-reject{
+border-color: #e9363a;
+color: #e9363a;
+}
+#btn-accept:hover{
+border-color: #04d913;
+color: #fff;
+background-color: #04d913;
+text-decoration: none;
+}
+#btn-reject:hover{
+border-color: #e9363a;
+color: #fff;
+background-color: #e9363a;
+text-decoration: none;
+}
