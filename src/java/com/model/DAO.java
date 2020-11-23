@@ -37,7 +37,7 @@ public class DAO {
     public void connection() throws Exception{
     
         Class.forName("com.mysql.jdbc.Driver");
-        conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/pwdb","root","");
+        conn = DriverManager.getConnection("jdbc:mysql://localhost:3307/pwdb","root","");
         
     }
     
@@ -45,7 +45,7 @@ public class DAO {
     {
        
         Class.forName("com.mysql.jdbc.Driver");
-        conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/pwdb","root","");
+        conn = DriverManager.getConnection("jdbc:mysql://localhost:3307/pwdb","root","");
         return conn;
         
     }
